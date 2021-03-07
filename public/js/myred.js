@@ -14,5 +14,5 @@ $(document).ready(function () {
         icons.forEach(item => {
             item.style.backgroundImage='url("/static/img/logo.png")'
         });
-    },500)
+    },100)
 })

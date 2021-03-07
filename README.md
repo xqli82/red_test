@@ -2,7 +2,15 @@
 ```
 npm install
 ```
+# 安装css库
+
+进入 Public目录,执行:
+```
+npm install
+```
+
 # 启动服务器
+退到根目录
 ```
 npn run server
 ```
