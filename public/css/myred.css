@@ -1,0 +1,48 @@
+#red-ui-header span.red-ui-header-logo img {
+    height: 30px !important;
+}
+.my-logout{
+    line-height: 40px;
+    float: right;
+    background: #000;
+    margin-right: 20px;
+}
+.my-logout a{
+    vertical-align:middle;
+    font-size: 16px;
+    color: #ccc !important;
+    padding: 0px 10px;
+}
+#red-ui-palette-common,#red-ui-palette-function,#red-ui-palette-network{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.red-ui-palette-node{
+    position: relative;
+    margin: 10px 5px;
+    width: 40%;
+    height: 50px !important;
+}
+.red-ui-palette-label{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    font-weight: 800;
+    z-index: 9999;
+}
+.red-ui-palette-icon-container{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.red-ui-palette-icon{
+    width: 100%;
+}
+.red-ui-palette-port-output,.red-ui-palette-port-input{
+    top: 40%  !important;
+}
